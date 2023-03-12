@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6, button, Link {
+    font-family: 'WideSaloon';
+  }
+  p, span {
+    font-family: 'Duality';
+  }
+}
+
+@font-face {
+  font-family: 'Duality';
+  src: local('Duality-Regular'),
+      url('assets/fonts/duality/Duality-Regular.woff2') format('woff2'),
+      url('assets/fonts/duality/Duality-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'WideSaloon';
+  src: local('WideSaloon'),
+      url('assets/fonts/widesaloon/WideSaloon.woff2') format('woff2'),
+      url('assets/fonts/widesaloon/WideSaloon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.main-bg{
+  position: relative;
+  z-index: 9;
+}
+
+.main-bg::after, .main-bg::before{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  z-index: 99;
+  content: "";
+  background-size: auto;
+  background-position: top;
+  width: 200px;
+  height: 100%;
+}
+
+.main-bg::after{
+  right: 0;
+  background-image: url('../src/assets/imgs/left-edge.png');
+}
+
+.main-bg::before{
+  left: 0;
+  background-image: url('../src/assets/imgs/right-edge.png');
+}
