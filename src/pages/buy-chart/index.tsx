@@ -9,7 +9,7 @@ export const BuyChart = () => {
   return (
     <Container>
       <Nav />
-      <BulletHole numbers={4}/>
+      <BulletHole numbers={5}/>
       <div className="text-center md:mb-40 mb-24">
         <h1 className=" lg:text-7xl md:text-5xl text-4xl text-primary uppercase">SHERIFF TOKEN</h1>
         <h2 className=" lg:text-6xl md:text-4xl text-3xl text-primary uppercase">rewards dashboard</h2>

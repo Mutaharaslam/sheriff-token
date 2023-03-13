@@ -80,7 +80,6 @@
   z-index: -1;
 }
 .bulletHole-holder .hole-img{
-  
   position: absolute;
 }
 
@@ -99,23 +98,50 @@
 .bulletHole-holder .hole-img:nth-child(3){
   left: 90%;
   top: 5%;
+  width: 70px;
   rotate: 35deg;
 }
 
 .bulletHole-holder .hole-img:nth-child(4){
-  left: 45%;
+  left: 10%;
   top: 40%;
+  width: 90px;
   rotate: 18deg;
 }
 
 .bulletHole-holder .hole-img:nth-child(5){
-  left: 45%;
-  top: 70%;
+  left: 55%;
+  top: 20%;
   rotate: 25deg;
 }
 
 .bulletHole-holder .hole-img:nth-child(6){
   left: 10%;
   top: 85%;
+  width: 70px;
   rotate: 40deg;
+}
+
+.navbar .navlink.active{
+  position: relative;
+  text-decoration: underline;
+}
+
+.navbar .navlink.active::after{
+  position: absolute;
+  content: '';
+  top: calc(100% + 2px);
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-image: url(./assets/imgs/star-min.png);
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 480px) {
+  .navbar .navlink.active::after{
+    width: 15px;
+    height: 15px;
+  }
 }
