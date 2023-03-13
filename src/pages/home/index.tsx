@@ -7,7 +7,7 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Nav />
-      <BulletHole numbers={6}/>
+      <BulletHole numbers={6} />
       <div className="text-center md:mb-40 mb-20">
         <h1 className=" lg:text-7xl sm:text-5xl text-4xl text-primary uppercase">SHERIFF TOKEN</h1>
       </div>
@@ -15,12 +15,13 @@ const Home: React.FC = () => {
         <div className="">
           <img src={coin} alt="" className="" />
         </div>
-        <div className="flex flex-col md:items-start items-center  justify-center mb-16 ">
+        <div className="flex flex-col md:items-start items-center  justify-center ">
           <h2 className="mb-4 text-5xl font-sans text-primary md:text-left text-center">tokenomics</h2>
           <p className="text-xl m-0 leading-10 md:text-left text-center">
-            “There’s a new sheriff in town!”.
-            In a space like the BSC, at times it sure can feel like the lawless days of the Wild West.
-            Introducing Shiba $heriff, your solution to the rugs and scams that plague this network.
+            50 BNB Private Raise <br />
+            ️75% to Liquidity <br />
+            ️Low Market cap<br />
+            ️0.5 bnb max private wallet
           </p>
         </div>
       </div>

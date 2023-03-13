@@ -2,6 +2,7 @@ import { Nav } from "../../Components/nav/nav";
 import coin from "../../assets/imgs/Sheriff-Coin 1-min.png";
 import { Container } from "../../Components/container/container";
 import { BulletHole } from "../../Components/bullet-holes/bullet-holes";
+import { ArrowButton } from "../../Components/arrow-button/arrow-button";
 
 export const About = () => {
   return (
@@ -15,13 +16,14 @@ export const About = () => {
         <div className="">
           <img src={coin} alt="" className="" />
         </div>
-        <div className="flex flex-col md:items-start items-center  justify-center mb-16 ">
-          <h2 className="mb-4 text-5xl font-sans text-primary md:text-left text-center">tokenomics</h2>
-          <p className="text-xl m-0 leading-10 md:text-left text-center">
+        <div className="flex flex-col md:items-start items-center  justify-center">
+          <h2 className="mb-4 text-5xl font-sans text-primary md:text-left text-center">about <br/> SHERIFF TOKEN</h2>
+          <p className="text-xl m-0 leading-10 md:text-left text-center mb-6">
             “There’s a new sheriff in town!”.
             In a space like the BSC, at times it sure can feel like the lawless days of the Wild West.
             Introducing Shiba $heriff, your solution to the rugs and scams that plague this network.
           </p>
+          <ArrowButton>Connect Wallet</ArrowButton>
         </div>
       </div>
     </Container>
