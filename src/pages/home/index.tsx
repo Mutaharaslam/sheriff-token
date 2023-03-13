@@ -1,7 +1,4 @@
 
-
-import valut from "../../assets/imgs/valut-min.png";
-import { BulletHeading } from "../../Components/bullet-heading/bullet-heading";
 import { Nav } from "../../Components/nav/nav";
 const Home: React.FC = () => {
   return (
