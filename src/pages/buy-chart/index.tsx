@@ -112,7 +112,7 @@ export const BuyChart = () => {
 
       </div>
 
-      <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 xl:px-72 lg:px-56 gap-4 md:px-36 sm:px-12 px-0 mx-auto font-serif mb-36 justify-items-center">
+      <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 xl:px-72 lg:px-56 md:px-36 sm:px-12 px-0 mx-auto font-serif mb-36 justify-items-center">
         <div className=" bg-contain bg-center text-primary bg-star hover:bg-starFilled hover:text-white bg-no-repeat sm:h-48 sm:w-48 h-36 w-36 flex items-center justify-center">
           <h1 className="text-4xl  m-0 leading-6 font-serif">01</h1>
         </div>
