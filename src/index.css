@@ -137,6 +137,7 @@
   background-size: contain;
   background-image: url(./assets/imgs/star-min.png);
   transform: translateX(-50%);
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 480px) {
